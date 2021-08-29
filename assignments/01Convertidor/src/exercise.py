@@ -13,7 +13,7 @@ def main():
     print("1. pies a cm, 2. pulgadas a cm, 3. yardas a cm") 
     opc = int(input("Introduce una opcion: "))
     valor = int(input("Introduce la cantidad: "))
-    if valor >= 0:
+    if valor > 0:
         if opc == 1:
             print(pies_cm(valor))
         elif opc == 2:
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
